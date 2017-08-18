@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Open With",
+	"version": "0.0",
+	"description": "Open links in native applications from the context menu of your browser",
+	"applications": {
+		"gecko": {
+			"id": "web_open_with@ns",
+			"strict_min_version": "50.0"
+		}
+	},
+	"permissions": [
+		"contextMenus",
+		"nativeMessaging",
+		"storage"
+	],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"options_ui": {
+		"page": "options.html"
+	}
+}

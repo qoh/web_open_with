@@ -1,0 +1,7 @@
+{
+	"name": "web_open_with",
+	"description": "Open links in native applications from the context menu of your browser",
+	"path": "/path/to/web_open_with/app/app.js",
+	"type": "stdio",
+	"allowed_extensions": ["web_open_with@ns"]
+}
